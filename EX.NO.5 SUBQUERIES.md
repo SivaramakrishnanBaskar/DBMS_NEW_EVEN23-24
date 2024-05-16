@@ -128,8 +128,10 @@ WHERE city IN (SELECT city FROM customer WHERE id IN (3, 7));
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/20bcb000-5e23-40ff-a6f0-44d37359cfd2)
 
 ### QUERY 9
+
 Create a table
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/749f06bf-dbbb-403e-8291-5cc32a256861)
+
 ```
 after insertion of three rows, Create a view v1 which contain name and address column only.
 ```
