@@ -145,8 +145,10 @@ WHERE S_ID < 5;
 SELECT * FROM v1;
 ```
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/ed008658-1152-4e5f-962e-b97b66cd062c)
+
 ### QUERY 10
-```Delete a view v1.
+```
+Delete a view v1.
 ```
 ### SQL QUERY
 ```
