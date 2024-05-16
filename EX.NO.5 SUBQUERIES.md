@@ -62,7 +62,7 @@ WHERE customer_id =
     (SELECT salesman_id - 2001
      FROM salesman
      WHERE name = 'Mc Lyon');
-     ```
+```
 ### TEST QUERY AND ITS OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/c7dae58e-3c29-4bf5-88cb-40b86b2cd4f9)
 ### QUERY 3
