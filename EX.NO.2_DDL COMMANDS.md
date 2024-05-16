@@ -82,13 +82,15 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 ## PROCEDURE
 1. Start the program. 
 2. Read the given query.
-3. create the table using 
-        CREATE TABLE (field_1 data_type(size),field_2 data_type(size), .. . );
-4. Drop the table by  DROP TABLE relation_name;
-5. Alter the table structure of the database by ALTER TABLE relation_name ADD (new field_1 data_type(size) );
-6. Specify the constraints NOT NULL,UNIQUE,DEFAULT,UNIQUE based on the query
-7. Show the output
-8. Stop the program
+3. create the table using
+```
+CREATE TABLE (field_1 data_type(size),field_2 data_type(size), .. . );
+```
+5. Drop the table by  DROP TABLE relation_name;
+6. Alter the table structure of the database by ALTER TABLE relation_name ADD (new field_1 data_type(size) );
+7. Specify the constraints NOT NULL,UNIQUE,DEFAULT,UNIQUE based on the query
+8. Show the output
+9. Stop the program
 ## Query 1:
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/908acbce-7e1f-49ca-b8b5-9dca4e8aef38)
 ### SQL QUERY:
