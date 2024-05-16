@@ -5,7 +5,6 @@
 ## AIM:
  To study and write DDL commands and different types of constraints.
 ## THEORY
-
 ### DDL (Data Definition Language)
 * DDL or Data Definition Language actually consists of the SQL commands that can be used to define the database schema.
 * It simply deals with descriptions of the database schema and is used to create and modify the structure of database objects in the database.
@@ -19,17 +18,29 @@
    ```
 3. ALTER: This is used to alter the structure of the database.
    A) To add new column
+   ```
    Syntax: ALTER TABLE relation_name ADD (new field_1 data_type(size) );
+   ```
    B) To modify the data type of existing column
+   ```
    Syntax: ALTER TABLE relation_name MODIFY (field_1 newdata_type(Size)
+   ```
    C) To drop the column of table
-    Syntax:ALTER TABLE relation_name DROP COLUMN (field_name); 
+   ```
+    Syntax:ALTER TABLE relation_name DROP COLUMN (field_name);
+   ```
    D) To rename the column of table
+   ```
    Syntax: ALTER TABLE relation_name RENAME COLUMN (OLD field_name) to (NEW field_name);
-4. DROP TABLE :This is used to delete the structure of a relation. It permanently deletes the records in the table.
+   ```
+5. DROP TABLE :This is used to delete the structure of a relation. It permanently deletes the records in the table.
+   ```
    Syntax: DROP TABLE relation_name;
-5. RENAME: This is used to rename an object existing in the database.
-   Syntax: RENAME TABLE old_relation_name TO new_relation_name;     
+   ```
+7. RENAME: This is used to rename an object existing in the database.
+   ```
+   Syntax: RENAME TABLE old_relation_name TO new_relation_name;
+   ```
 ### CONSTRAINTS
 Constraints are used to specify rules for the data in a table. If there is any violation between the constraint and the data action, the action is aborted by the constraint. It can be specified when the table is created (using CREATE TABLE statement) or after the table is created (using ALTER TABLE statement). 
 1. NOT NULL:
