@@ -111,7 +111,9 @@ WHERE age < (SELECT AVG(age) FROM employee WHERE income > 250000);
 ### QUERY 7
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/77874943-ee10-4e4b-8ccd-452ed8488f98)
 ### SQL QUERY
+```
 SELECT * FROM CUSTOMERS WHERE ID IN (SELECT ID FROM CUSTOMERS WHERE SALARY > 1500);
+```
 ### OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/69fa4e7e-b59f-46d4-b68d-8eb26d3a31aa)
 ### QUERY 8
@@ -124,10 +126,13 @@ WHERE city IN (SELECT city FROM customer WHERE id IN (3, 7));
 ```
 ### OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/20bcb000-5e23-40ff-a6f0-44d37359cfd2)
+
 ### QUERY 9
 Create a table
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/749f06bf-dbbb-403e-8291-5cc32a256861)
+```
 after insertion of three rows, Create a view v1 which contain name and address column only.
+```
 ### SQL QUERY
 ```
 CREATE VIEW v1 AS
@@ -136,12 +141,17 @@ FROM StudentDetails1
 WHERE S_ID < 5;
 ```
 ### TEST QUERY AND ITS OUTPUT
+```
 SELECT * FROM v1;
+```
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/ed008658-1152-4e5f-962e-b97b66cd062c)
 ### QUERY 10
-Delete a view v1.
+```Delete a view v1.
+```
 ### SQL QUERY
+```
 drop view v1;
+```
 ### TEST QUERY AND ITS OUTPUT
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/c9803a3f-0708-438b-a958-f626d748339e)
 SELECT * FROM v1;
