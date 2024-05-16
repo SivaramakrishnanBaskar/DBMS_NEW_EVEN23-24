@@ -1,6 +1,7 @@
 # EX.NO 3 Data Manipulation Language (DML) Commands and built in functions in SQL
-### DATE:
-#### REGISTER NUMBER:
+### DATE:28/02/2024
+#### REGISTER NUMBER: 212222110044
+
 ## AIM:
 To Study and write DML Commands for given query.
 ## THEORY
@@ -109,7 +110,6 @@ UPDATE suppliers SET supplier_name = 'A1 Suppliers' WHERE supplier_id = 8;
 UPDATE products SET reorder_lvl = 40  WHERE category = 'Grocery';
 ## TEST QUERY AND ITS OUTPUT 
 ![image](https://github.com/UmaRani-Github/DBMS_NEW_EVEN23-24/assets/144427076/a2da7c2d-4321-45e0-a1ea-20fabd42e805)
-
 
 ## RESULT :
 Thus the basic DML commands are executed.
